@@ -1,0 +1,15 @@
+:root{
+    --bgcolor : #4680ff;
+    --litecolor : #fff;
+    --barkcolor : #232323;
+    --boder-color: 1px solid #4680ff;
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
