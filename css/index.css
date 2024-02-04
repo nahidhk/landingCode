@@ -52,5 +52,22 @@ div{
   background-color: #ff007ba1;
   color: #fff;
     cursor: pointer;
-
+}
+n{
+    color: red;
+}
+i{
+    font-size: 24px;
+}
+.input-box{
+    height: 30px;
+    width: 280px;
+    background-color: #4680ff00;
+    outline: none;
+    outline-color: none;
+ border: none;
+}
+fieldset{
+    height: 100%;
+    width: 320px;
 }
