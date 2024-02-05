@@ -67,6 +67,7 @@ i{
     outline-color: none;
  border: none;
  color: #4680ff;
+ cursor: pointer;
 }
 fieldset{
     height: 100%;
@@ -82,6 +83,7 @@ fieldset{
   background-color: #42445A00;
   border: 1px solid #000000;
   border-radius: 5px;
+  cursor: pointer;
 }
 .btn:hover{
   background-color: #000;
