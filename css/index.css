@@ -66,8 +66,32 @@ i{
     outline: none;
     outline-color: none;
  border: none;
+ color: #4680ff;
 }
 fieldset{
     height: 100%;
     width: 320px;
+}
+.lad{
+  height: 120px;
+}
+.btn{
+  transition: all 0.4s;
+  height: 40px;
+  width: 200px;
+  background-color: #42445A00;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+button{
+  cursor: pointer;
+}
+.wave{
+  padding: 3px;
+  padding-top: 10px;
+  background-color: #E5E5E5;
 }
