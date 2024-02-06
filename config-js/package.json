@@ -1,0 +1,45 @@
+{
+  "name": "config-js",
+  "version": "1.1.15",
+  "description": "A simple config module. Support for regions and auto-load when file changes.",
+  "keywords": [
+    "config",
+    "configuration",
+    "simple",
+    "region",
+    "const",
+    "constant",
+    "target",
+    "targets",
+    "regions"
+  ],
+  "author": "Edmond Meinfelder <edmond@stdarg.com>",
+  "maintainers": "Edmond Meinfelder <edmond@stdarg.com>",
+  "homepage": "http://github.com/stdarg/config-js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stdarg/config-js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/stdarg/config-js/issues"
+  },
+  "license": "MIT",
+  "main": "./index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter list ./test/test.js"
+  },
+  "engines": {
+    "node": ">=v0.8.0"
+  },
+  "dependencies": {
+    "const-obj": "^0.0.4",
+    "debug": "4.1.1",
+    "have": "0.4.0",
+    "is2": "2.0.4",
+    "lodash.merge": "4.6.2",
+    "property-path": "1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
