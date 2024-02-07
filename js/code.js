@@ -70,7 +70,7 @@ var dataapp = `
 
       <br><br>
     </blockquote>
-    <center>
+    <center> 
       <p>Copyright &copy; 2024 - <span>My Offer</span></spaN></p>
     </center>
   </section>
