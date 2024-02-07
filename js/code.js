@@ -13,8 +13,6 @@ var ofname = document.getElementById("ofname").value;
 
 
 alert(link+category+site+ofname);
-}
-
 
 
 var dataapp = `
@@ -27,14 +25,14 @@ var dataapp = `
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New Offer</title>
+  <title>${site}</title>
 </head>
 
 <body>
 
 <section class="navbig animate__animated  animate__flipInX">
-    <span class="title"></span>
-    <div onclick="window.location.href='#'" class="menu-btn">
+    <span class="title">${site}</span>
+    <div onclick="window.location.href='${link}'" class="menu-btn">
       <i class="bi bi-list"></i>
     </div>
   </section>
@@ -42,7 +40,7 @@ var dataapp = `
     <div class="rotex"> <br>
       <span>
         <blockquote>
-          This is a Demo ! This page is not link set.
+         The offer is a All time Best offer shears. this offer is a only USA today offer!
         </blockquote>
       </span>
     </div>
@@ -51,27 +49,26 @@ var dataapp = `
   <center>
     <div class="card animate__animated animate__lightSpeedInLeft">
       <div class="ijtml animate__animated animate__bounceInDown ">
-        <img src="/img/card/Cash.png" /><br>
+        <img src="/img/card/${category}.png" /><br>
         <blockquote>
-          <h1>$750 Cash App
-            Gift Card</h1>
+          <h1>${ofname}</h1>
         </blockquote>
-        <a class="btn" href="#">Learn More</a>
+        <a class="btn" href="${link}">Learn More</a>
       </div>
     </div>
   </center>
   <br><br>
   <section class="footer">
     <blockquote>
-      <span class="rotez">My Offer</span>
-      <p>The <span> My Offer </span> official offer share website </p>
+      <span class="rotez">${site}</span>
+      <p>The <span>${site} </span> official offer share website </p>
       <br>
       <p onclick="callpryvice()" class="xi">Privacy policy </p>
 
       <br><br>
     </blockquote>
     <center> 
-      <p>Copyright &copy; 2024 - <span>My Offer</span></spaN></p>
+      <p>Copyright &copy; 2024 - <span>${site}</span></span></p>
     </center>
   </section>
   <script src="/js/linkcall.js">
@@ -80,4 +77,9 @@ var dataapp = `
 </body>
 </html>
 `
+
+
+
+}
+
 
