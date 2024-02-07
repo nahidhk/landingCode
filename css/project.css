@@ -9,7 +9,7 @@ body {
     font-family: webfont;
 }
 
-.nav {
+.navbig {
     height: 60px;
     width: 100%;
     position: sticky;
@@ -17,7 +17,7 @@ body {
     background-color: #ffffffbe;
     box-shadow: 0 0 3px 0 #000000bb;
     backdrop-filter: blur(10px);
-
+z-index: 100;
 }
 
 .title {
@@ -47,8 +47,9 @@ body {
     font-size: 40px;
 }
 .bgnote{
+  margin: 0;
     height: 200px;
-    background-image: url("https://github.com/nahidhk/Landing-card/blob/main/img/home-slider.gif?raw=true");
+    background-image: url("/img/sides/home-slider.gif");
     height: 250px;
   width: 100%;
   background-color: white;
@@ -94,3 +95,32 @@ body {
     color: #fff;
 }
 
+.footer{
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  background-color: #42445A;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer .rotez{
+  color: white;
+  font-size: 30px;
+  border-bottom: 5px solid #76FF0D;
+  border-radius: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+   border-left: 5px solid #76FF0D;
+ 
+
+}
+.xi{
+  transition: all 0.4s;
+}
+.xi:hover{
+ cursor: pointer;
+ padding: 10px;
+ border: 1px dotted #76FF0D;
+ border-radius: 100px;
+ color: #76FF0D;
+}
