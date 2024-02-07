@@ -28,8 +28,7 @@
    
    <br><br>
 <center>
-  
-<form>
+
   <fieldset>
     <legend><label for="url">Plotfrom Link <n>*</n></label></legend>
     <i class="bi bi-link-45deg"></i>
@@ -39,7 +38,7 @@
 <fieldset>
   <legend><label for="url"> Category <n>*</n></label></legend>
   <i class="bi bi-tags"></i>
-<select class="input-box"  id="Category">
+<select class="input-box"  id="category">
   <option selected disabled>run your Category</option>
   <option value="Paypal">Paypal</option>
   <option value="Google">Google Play</option>
@@ -50,23 +49,24 @@
 <br>
 <fieldset>
   <legend>Site Name <n>*</n></legend><i class="bi bi-crosshair"></i>
-  <input type="text" class="input-box" placeholder="Site Name" value="New Offer">
+  <input id="site" type="text" class="input-box" placeholder="Site Name" value="New Offer">
 </fieldset>
-<br>
+
 
 <fieldset>
-  <legend><i class="bi bi-card-text"></i> Deposition</legend>
-  <textarea placeholder="add your destination! use for html <br/> , <mark> , <b> , <strong> , <q> , <s> , <n> , <a>  , <span> ! " class="input-box lad" rows="10" required></textarea>
-  
-    <span class="btn wave"><i class="bi bi-arrow-repeat"></i></span>
+  <legend>Offer Nmae <n>*</n></legend><i class="bi bi-wallet2"></i>
+  <input id="ofname" type="text" class="input-box" placeholder="Site Name" value="Exampule: $750 Cash App
+  Gift Card">
 
 </fieldset>
 
+
+
 <br>
 
-<button class="btn"> <i class="bi bi-code-slash"></i> Generate Code</button>
+<button onclick="loadmydata()" class="btn"> <i class="bi bi-code-slash"></i> Generate Code</button>
 
-</form>   
+ 
 </center>   
   <br> <br>
    

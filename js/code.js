@@ -1,7 +1,37 @@
 // the dynamic code 
-console.log("nahid hk ")
+console.log("code.js ")
+//rt let cod
+function  loadmydata(){
+  //url 
+var link = document.getElementById("url").value;
+// catagory
+var category = document.getElementById("category").value;
+// site name
+var site = document.getElementById("site").value;
+/// offer name 
+var ofname = document.getElementById("ofname").value;
+
+
+alert(link+category+site+ofname);
+}
+
+
 
 var dataapp = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="/css/project.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Offer</title>
+</head>
+
+<body>
+
 <section class="navbig animate__animated  animate__flipInX">
     <span class="title"></span>
     <div onclick="window.location.href='#'" class="menu-btn">
@@ -44,5 +74,10 @@ var dataapp = `
       <p>Copyright &copy; 2024 - <span>My Offer</span></spaN></p>
     </center>
   </section>
+  <script src="/js/linkcall.js">
+  </script>
+  
+</body>
+</html>
 `
 
