@@ -112,7 +112,19 @@ button{
  height: 360px; width: 334px;outline: none;border-radius: 10px;  
 }
 .vcc{display: none;}
-
+.remon{
+  height: 40px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.remon:hover{
+  background-color: #000;
+  color: #fff;
+}
 @media only screen and (max-width: 600px) {
 .younin{
   height: 450px;

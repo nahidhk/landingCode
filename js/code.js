@@ -77,6 +77,7 @@ var dataapp = `
 </body>
 </html>
 `
+document.getElementById('mainio').style.display="block";
 document.getElementById('pullio').innerHTML=dataapp;
 }
 
