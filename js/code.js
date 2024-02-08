@@ -12,7 +12,7 @@ var site = document.getElementById("site").value;
 var ofname = document.getElementById("ofname").value;
 
 
-alert(link+category+site+ofname);
+alert("Your Link :"+link+" , Your Link Category : "+category+" , Your Site Name : "+site + " , Your Offer Title :"+ofname);
 
 
 var dataapp = `
