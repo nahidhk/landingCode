@@ -68,6 +68,7 @@ i{
  border: none;
  color: #4680ff;
  cursor: pointer;
+ font-family: myfont;
 }
 fieldset{
     height: 100%;

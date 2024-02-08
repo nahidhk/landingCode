@@ -1,6 +1,18 @@
 // the dynamic code 
 console.log("code.js ")
 //rt let cod
+
+
+function mycan(){
+  var contol= document.getElementById("category").value;
+if (contol === "add") {
+window.location.href="https://t.me/nahidhk"
+} else {
+ 
+}
+}
+
+
 function  loadmydata(){
   //url 
 var link = document.getElementById("url").value;
@@ -10,9 +22,6 @@ var category = document.getElementById("category").value;
 var site = document.getElementById("site").value;
 /// offer name 
 var ofname = document.getElementById("ofname").value;
-
-
-
 
 var dataapp = `
 <!DOCTYPE html>
