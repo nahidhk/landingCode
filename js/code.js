@@ -77,9 +77,7 @@ var dataapp = `
 </body>
 </html>
 `
-
-
-
+document.getElementById('pullio').innerHTML=dataapp;
 }
 
 

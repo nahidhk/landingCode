@@ -97,3 +97,14 @@ button{
   padding-top: 10px;
   background-color: #E5E5E5;
 }
+.younin{
+  height: 400px;
+  width: 340px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 0 100px 0 #000;
+}
