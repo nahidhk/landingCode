@@ -77,8 +77,11 @@ var dataapp = `
 </body>
 </html>
 `
-document.getElementById('mainio').style.display="block";
+document.getElementById('mainio').classList="younin animate__animated animate__bounceIn";
 document.getElementById('pullio').innerHTML=dataapp;
 }
 
-
+function editapp(){
+ document.getElementById('mainio').classList="younin animate__animated animate__bounceOut";
+ 
+}
