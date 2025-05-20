@@ -22,7 +22,7 @@ var category = document.getElementById("category").value;
 var site = document.getElementById("site").value;
 /// offer name 
 var ofname = document.getElementById("ofname").value;
-const host = "lndcode.vercel.app";
+const host = "landing-code.vercel.app";
 var dataapp = `
 <!DOCTYPE html>
 <html lang="en">
