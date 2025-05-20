@@ -22,14 +22,14 @@ var category = document.getElementById("category").value;
 var site = document.getElementById("site").value;
 /// offer name 
 var ofname = document.getElementById("ofname").value;
-
+const host = "lndcode.vercel.app";
 var dataapp = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="https://landingcode.bmhm.sbs/css/project.css">
+  <link rel="stylesheet" href="https://${host}/css/project.css">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -79,7 +79,7 @@ var dataapp = `
       <p>Copyright &copy; 2024 - <span>${site}</span></span></p>
     </center>
   </section>
-  <script src="https://landingcode.bmhm.sbs/js/linkcall.js">
+  <script src="https://${host}/js/linkcall.js">
   </script>
   
 </body>
