@@ -76,7 +76,7 @@ var dataapp = `
       <br><br>
     </blockquote>
     <center> 
-      <p>Copyright &copy; 2024 - <span>${site}</span></span></p>
+      <p>Copyright &copy; 2024-2025 - <span>${site}</span></span></p>
     </center>
   </section>
   <script src="https://${host}/js/linkcall.js">
